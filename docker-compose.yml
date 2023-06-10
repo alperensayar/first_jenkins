@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  backend:
+    container_name: backend
+    image: myfirst_dockerfile_with_jenks
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: always
+
