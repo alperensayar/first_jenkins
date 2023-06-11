@@ -1,0 +1,5 @@
+__pycache__/
+jenkins_data/
+.dockerignore
+.gitignore
+jenkins.Dockerfile
